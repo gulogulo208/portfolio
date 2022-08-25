@@ -1,0 +1,100 @@
+ * {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    font-family: Arial;
+    margin: 0;
+ }
+
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(77, 90, 102);
+}
+
+h1 {
+    background-color: darkcyan;
+    font-size: 150%;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    background-color: rgb(77, 90, 102);
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* add button element styling */
+/* button {
+    background-color: wheat;
+  }
+  
+  button:hover {
+    background-color: darkred;
+    color: #fff;
+  }
+  
+  button:active {
+    font-size: 150%;
+  }
+  
+  button:focus {
+    outline: none;
+    border-color: #8ac4ff;
+  } */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    display: flex;
+    color: darkred;
+    background-color: lightskyblue;
+}
+
+section {
+    display: flex;
+    color: darkred;
+    background-color: azure;
+    padding: 25px
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: rgb(77, 90, 102);
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    aside {
+      order: 2;
+    }
+    header {
+      background: #2a0606;
+    }
+    nav,
+    footer {
+      background-color: #5b1010;
+    }
+  }
+
