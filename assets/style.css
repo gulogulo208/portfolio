@@ -1,10 +1,11 @@
  * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
  }
  
  body {
-    font-family: Arial;
-    margin: 0;
+    background-color: wheat;
  }
 
  header {
@@ -27,13 +28,25 @@ nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
-    background-color: rgb(77, 90, 102);
+    padding: 5px;
+    background-color: rgb(77, 90, 102); 
 }
 
+
 nav a {
+    display: flex;
     color: whitesmoke;
     text-decoration: none;
     padding: 10px;
+}
+
+.hero {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-image: url("../assets/stanley.webp");
+    background-size: cover;
+    background-position: center;
 }
 
 /* add button element styling */
@@ -60,18 +73,35 @@ main {
     flex-wrap: wrap;
 }
 
-aside {
-    display: flex;
-    color: darkred;
-    background-color: lightskyblue;
+p {
+    padding: 5px;
 }
 
 section {
     display: flex;
+    position: relative;
     color: darkred;
     background-color: azure;
     padding: 25px
 }
+
+.tiles {
+    
+    border-radius: 1%;
+
+}
+
+.tileHeader {
+    
+    border-right-style: solid;
+    border-width: 5px;
+    border-color: #5b1010;
+    width: 180px;
+    padding: 10px;
+    text-align: right;
+}
+
+
 
 footer {
     display: flex;
