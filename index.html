@@ -1,74 +1,79 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Teddy's Portfolio</title>
-        <link rel="stylesheet" href="./assets/reset.css">
-        <link rel="stylesheet" href="./assets/style.css">
-    </head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teddy's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
 <body>
     <!-- Header -->
     <header>
-        <h1>Theodore Elgee ~ Portfolio</h1> 
-                <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <a href="#">About Me</a>
-            <a href="">Projects</a>
-            <a href="#">Resume</a>
-            <a href="#">Contact Me</a>
-        </ul>
-    </nav>
-    
+        <h1>Theodore Elgee ~ Portfolio</h1>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <a href="#">About Me</a>
+                <a href="#">Projects</a>
+                <a href="assets/TeddyResume2022.pdf">Resume</a>
+                <a href="#">Contact Me</a>
+            </ul>
+        </nav>
     </header>
     <div class="hero"></div>
-
     <!-- Body -->
     <main>
         <!-- Main Content -->
         <section>
-           <!-- <aside>
-                <div class=""></div>
-                <div class="sample image">Image</div>
-                <p>Contact Me</p> 
-            </aside> -->
             <div>
                 <section class="tiles">
-                    <header class="tileHeader">
-                        <h2>About Me</h2>
-                    </header>
-                  <p>Lifelong learner interested in analytics, economics, financial markets, and programming. Experienced in Excel, Alteryx, Mircostrategy, Python, and JavaScript. Avid reader and researcher who enjoys psychology, fiction, music, art, and the outdoors.</p>
+                    <h2 class="tileHeader">About Me</h2>
+                    <img src="assets/me.jpeg" alt="my picture" />
+                    <p>Lifelong learner interested in analytics, economics, financial markets, and programming.
+                        Experienced in Excel, Alteryx, Mircostrategy, Python, and JavaScript. Avid reader and researcher
+                        who enjoys psychology, fiction, music, art, and the outdoors.</p>
                 </section>
 
                 <section class="tiles">
-                    <header class="tileHeader">
-                        <h2>Projects</h2>
-                    </header>
-                  <img src="/assets/horiseonProject.jpeg" alt="link to Horiseon" />
-                  <link rel="project" href="https://gulogulo208.github.io/horiseon/">
+                    <h2 class="tileHeader">Projects</h2>
+                    <ul>
+                        <li>
+                            <a href="https://gulogulo208.github.io/eatnsip/"> eatNsip App</a>
+                            <img src="assets/app_img.png" alt="link to eatNsip" />
+                        </li>
+                        <li>
+                            <a href="https://birds-eye-app.herokuapp.com/"> BirdsEye Management App</a>
+                            <img src="assets/BirdsEyeImg.png" alt="birds eye management app" />
+                        </li>
+                        <li>
+                            <a href="https://sojourner-app.herokuapp.com/"> Sojourner Travel App</a>
+                            <img src="assets/Sojourner.png" alt="Sorjourner Travel App" />
+                        </li>
+                    </ul>
+
                 </section>
 
                 <section class="tiles">
-                    <header class="tileHeader">
-                        <h2>Resume</h2>
-                    </header>
-                    <div class="Resume">
-                        <img src="/assets/TeddyResume2022.pdf" alt="link to resume pdf"/>
-                    </div>
-                  <p>Experienced Analyst</p>
+                    <h2 class="tileHeader">Resume</h2>
+                    <a href="assets/TeddyResume2022.pdf">My Resume</a>
+                    <p>Experienced analyst with a demonstrated history of automating and streamlining business
+                        processes.</p>
                 </section>
 
                 <section class="tiles">
-                    <header class="tileHeader">
-                        <h2>Contact Me</h2>
-                    </header>
-                        <p>Cell: 208-721-1844</p>     
-                        <p>email: elgee.t@gmail.com</p> 
-                        <p>LinkedIn: Theodore Elgee</p>
-                        <p>GitHub: gulogulo208</p>
+                    <h2 class="tileHeader">Contact Me</h2>
+                        <ul>
+                            <li>Cell: 208-721-1844</li>
+                            <li>email: elgee.t@gmail.com</li>
+                            <li>LinkedIn: https://www.linkedin.com/in/tedelgee/</li>
+                            <li>GitHub: gulogulo208</li>
+                        </ul>    
                 </section>
-              </div>
+            </div>
         </section>
         <!-- Sidebar -->
 
@@ -77,4 +82,7 @@
 <footer>
     <span>Thank you for checking out my portfolio! &#129312; </span>
 </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
