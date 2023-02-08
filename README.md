@@ -4,7 +4,7 @@ This webpage is designed for potential employers to view my site, projects, cont
 
 ## My Working Portfolio for Potential Employers
 
-Projects included are eatNsip which is a leftover food recupe app, BirdsEye: A project management app, and Sojourner: 
+Projects included are eatNsip which is a leftover food recupe app, BirdsEye: A project management app, and Sojourner: A travel expensing and socializing app
 ## Project Overview
 
 Preview of the webpage
