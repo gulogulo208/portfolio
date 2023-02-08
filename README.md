@@ -4,8 +4,7 @@ This webpage is designed for potential employers to view my site, projects, cont
 
 ## My Working Portfolio for Potential Employers
 
-Projects included are only my first project called horiseon, some information about myself, how to contact me, and a link to my LinkedIn and GitHub pages
-
+Projects included are eatNsip which is a leftover food recupe app, BirdsEye: A project management app, and Sojourner: 
 ## Project Overview
 
 Preview of the webpage
